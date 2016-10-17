@@ -113,17 +113,7 @@ public class ActionConstants {
               + dl(SystemAction.Overview.mAction)   + dl(SystemAction.Overview.mLabelRes) + dl(EMPTY)
               + dl(SystemAction.NoAction.mAction)    + dl(SystemAction.NoAction.mLabelRes)  + dl(EMPTY)
               + dl(SystemAction.NoAction.mAction)   + dl(SystemAction.NoAction.mLabelRes) + EMPTY;
-/*
-              + dl(BUTTON4_TAG)
-              + dl(SystemAction.ExpandedDesktop.mAction)       + dl(SystemAction.ExpandedDesktop.mLabelRes)     + dl(EMPTY)
-              + dl(SystemAction.Flashlight.mAction)   + dl(SystemAction.Flashlight.mLabelRes) + dl(EMPTY)
-              + dl(SystemAction.PowerMenu.mAction)   + dl(SystemAction.PowerMenu.mLabelRes) + dl(EMPTY)
 
-              + dl(BUTTON5_TAG)
-              + dl(SystemAction.Screenrecord.mAction)       + dl(SystemAction.Screenrecord.mLabelRes)     + dl(EMPTY)
-              + dl(SystemAction.KillApp.mAction)   + dl(SystemAction.KillApp.mLabelRes) + dl(EMPTY)
-              + dl(SystemAction.ScreenOff.mAction)   + dl(SystemAction.ScreenOff.mLabelRes) + EMPTY;
-*/
         @Override
         public String getUri() {
             return "smartbar_button_config";
