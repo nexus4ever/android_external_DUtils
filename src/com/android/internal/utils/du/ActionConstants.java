@@ -100,19 +100,19 @@ public class ActionConstants {
         public static final String SMARTBAR_CONFIG_DEFAULT =
                 dl(SMARTBAR_DEF_BUTTONS)                                                              // default number of ButtonConfig
               + dl(BUTTON1_TAG)                                                                     // button tag
-              + dl(SystemAction.Back.mAction)       + dl(SystemAction.Back.mLabelRes)     + dl(EMPTY)  // single tap (PRIMARY)
-              + dl(SystemAction.NoAction.mAction)   + dl(SystemAction.NoAction.mLabelRes)  + dl(EMPTY)  // long press (SECOND)
-              + dl(SystemAction.NoAction.mAction)   + dl(SystemAction.NoAction.mLabelRes) + dl(EMPTY)  // double tap (THIRD)
+              + dl(SystemAction.Back.mAction)     + dl(SystemAction.Back.mLabelRes)     + dl(EMPTY)  // single tap (PRIMARY)
+              + dl(SystemAction.KillApp.mAction)  + dl(SystemAction.KillApp.mLabelRes)  + dl(EMPTY)  // long press (SECOND)
+              + dl(SystemAction.NoAction.mAction) + dl(SystemAction.NoAction.mLabelRes) + dl(EMPTY)  // double tap (THIRD)
 
               + dl(BUTTON2_TAG)
-              + dl(SystemAction.Home.mAction)       + dl(SystemAction.Home.mLabelRes)     + dl(EMPTY)
-              + dl(SystemAction.GoogleNowOnTap.mAction)   + dl(SystemAction.GoogleNowOnTap.mLabelRes) + dl(EMPTY)
-              + dl(SystemAction.NoAction.mAction)   + dl(SystemAction.NoAction.mLabelRes) + dl(EMPTY)
+              + dl(SystemAction.Home.mAction)           + dl(SystemAction.Home.mLabelRes)           + dl(EMPTY)
+              + dl(SystemAction.GoogleNowOnTap.mAction) + dl(SystemAction.GoogleNowOnTap.mLabelRes) + dl(EMPTY)
+              + dl(SystemAction.NoAction.mAction)       + dl(SystemAction.NoAction.mLabelRes)       + dl(EMPTY)
 
               + dl(BUTTON3_TAG)
-              + dl(SystemAction.Overview.mAction)   + dl(SystemAction.Overview.mLabelRes) + dl(EMPTY)
-              + dl(SystemAction.SplitScreen.mAction)    + dl(SystemAction.SplitScreen.mLabelRes)  + dl(EMPTY)
-              + dl(SystemAction.LastApp.mAction)   + dl(SystemAction.LastApp.mLabelRes) + EMPTY;
+              + dl(SystemAction.Overview.mAction)    + dl(SystemAction.Overview.mLabelRes)    + dl(EMPTY)
+              + dl(SystemAction.SplitScreen.mAction) + dl(SystemAction.SplitScreen.mLabelRes) + dl(EMPTY)
+              + dl(SystemAction.LastApp.mAction)     + dl(SystemAction.LastApp.mLabelRes)     + EMPTY;
 
         @Override
         public String getUri() {
